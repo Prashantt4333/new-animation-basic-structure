@@ -49,13 +49,13 @@
         width:100px;
         background-color: darkred;
         display: inline-block;
-        transition: all 4s linear ;
+        transition: all  linear ;
         transform: translate(0px,0px);
     }
     div[data-parent="parent"]:hover > div[data-child="child"]{
         /*State 2 */
         background:green;
-        transform: translate(0px,400px);
+        transform: translate(0px,500px);
 
     }
     .c1{
@@ -80,7 +80,7 @@
     transition: all 0.5s linear 0.7s !important;
     }
     .c8{
-    transition: all 0.2s linear 0.8s !important;
+    transition: all 0.5s linear 0.8s !important;
     }
     .c9{
     transition: all 0.9s linear 0.9s !important;
